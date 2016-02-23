@@ -1,7 +1,7 @@
 #!/bin/bash
 #set -xv
 # Nagios Plugin to check openfiles by a program and it's child processes
-# nasim.ansari  at gmail dit com: 30 Sep 2011
+# nasim.ansari (at) gmail dot com: 30 Sep 2011
 #
 #  requirement :  /usr/sbin/lsof should be allowed in /etc/sudoers for nrpe user
 #
