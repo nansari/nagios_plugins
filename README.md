@@ -13,6 +13,13 @@ Nagios Plugin to check openfiles by a program and it's child processes
  -w ProgramWarlevel    : Number of FD for Program Warning Level
  -c ProgramCriticlevel : Number of FD for Program Critical level
 
+>>>  unix_os_related/check_file_age.py
+ $./check_file_age.py -d /dest/dir/name/ -c 300 -w 180
+ - nagios plugin to aler if age of oldest file in directory is more than given time
+ - time arguments to 1w and -c is in seconds
+ - it takes 6 arguments
+ - argument orders should be same a per above example
+ - if no file in destination directory, it will return OK
 
 >>> veritas_monitoring/check_veritas_health.sh
 
